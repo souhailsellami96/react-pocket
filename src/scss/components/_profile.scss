@@ -1,0 +1,57 @@
+@mixin profilestyle {
+    .profile__card {
+        height: 32rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding : 2.4rem;
+        color:black;
+        gap:3rem;
+    }
+    .profile__name {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+    .profile__button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        button {
+            background-color: rgb(218, 216, 216);
+            border-radius: 0;
+            font-size: 1rem;
+            font-weight: 900;
+            border-bottom: 4px solid #202040;
+            color: #202040;
+            &:hover {
+                background-color: #202040;
+                color: rgb(218, 216, 216);;
+            }
+
+        }
+    }
+    .profile__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0.5rem;
+        input {
+            border-radius: 0.2rem;
+            width: 15rem;
+            height: 2.1rem;
+            border: none;
+            padding:1rem;
+            border-bottom: 3px solid grey;
+            color: rgb(44, 44, 44);
+            background-color: rgb(218, 216, 216);
+            &:focus {
+                border-bottom: 4px solid #202040;
+                outline: none;
+            }
+        }
+    } 
+}

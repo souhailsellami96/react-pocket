@@ -1,0 +1,55 @@
+.sidebar{
+    background-color: #202040;
+    color:white;
+    .brand{
+        background-color: #202040;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .links {
+        li {
+            list-style-type: none;
+            margin: 0 auto;
+            width: 60%;
+            margin-top: 2.2rem;
+            gap: 1rem;
+            a{
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: flex;
+                font-weight: 300;
+                gap: 0.9rem;
+                transition: 0.5s ease-in-out;
+                &:hover {
+                    color:grey;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+    .settings {
+        margin-top: 6rem;
+        li {
+            list-style-type: none;
+            margin: 0 auto;
+            width: 60%;
+            margin-top: 2rem;
+            a{
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: flex;
+                font-weight: 300;
+                gap: 0.9rem;
+                transition: 0.5s ease-in-out;
+                &:hover {
+                    color:grey;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
