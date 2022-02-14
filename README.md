@@ -1,4 +1,4 @@
-# Dahboard for FinTech platform
+# Dashboard for FinTech platform
 
 This project comes with wallet insights like expenses, transactions history,deposit,buy and sell.
 
